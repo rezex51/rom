@@ -3,7 +3,7 @@
 # Upgrade System
 sudo apt update && sudo apt upgrade -y
 
-#Initiating PixelOS
+#Initiating Yaap
 echo "========================================================================"
 echo "INITIALIZING ROM REPOSITORY"
 echo "========================================================================"
