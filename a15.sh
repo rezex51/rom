@@ -55,10 +55,10 @@ git clone https://github.com/rezex51/proprietary_vendor_oneplus_larry.git -b 15 
 git clone https://github.com/rezex51/proprietary_vendor_oneplus_sm6375-common.git -b 15 vendor/oneplus/sm6375-common
 
 #5. Kernel Tree
-git clone https://github.com/NeonWarrior478/android_kernel_motorola_sm6375.git  -b fourteen kernel/motorola/sm6375
+git clone https://github.com/rezex51/android_kernel_oneplus_sm6375.git -b 15 kernel/oneplus/sm6375
 
 echo "========================================================================"
-echo "BASIC MUNCH RESOURCES CLONED SUCCESSFULLY"
+echo "BASIC LARRY RESOURCES CLONED SUCCESSFULLY"
 echo "========================================================================"
 
 
@@ -78,5 +78,4 @@ echo "BUILD STARTING"
 echo "========================================================================"
 
 source build/envsetup.sh
-lunch aosp_fogos-ap2a-userdebug
-mka bacon
+brunch larry
