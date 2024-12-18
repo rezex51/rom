@@ -78,4 +78,5 @@ echo "BUILD STARTING"
 echo "========================================================================"
 
 source build/envsetup.sh
-brunch larry
+lunch lineage_larry-userdebug
+mka bacon
